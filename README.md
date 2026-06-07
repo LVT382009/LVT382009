@@ -27,72 +27,98 @@ I'm passionate about creating **AI-powered autonomous agents** and intelligent d
 
 ## 🚀 Featured Projects
 
-### 1. **[Mizumi](https://github.com/LVT382009/mizumi)** - AI Code Review Agent
+<details>
+<summary><strong>1. 🤖 <a href="https://github.com/LVT382009/mizumi">Mizumi</a> - AI Code Review Agent</strong></summary>
+
+<br>
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-> Self-learning PR review agent with multi-provider support, prompt injection defense, and memory capabilities. The first AI code review tool with an explicit defense framework.
+Self-learning PR review agent with multi-provider support, prompt injection defense, and memory capabilities. **The first AI code review tool with an explicit defense framework.**
 
 **Key Features:**
-- 🤖 Self-learning capabilities
+- ✅ Self-learning capabilities
 - 🔐 Prompt injection defense framework
 - 🔄 Multi-provider compatibility
 - 💾 Persistent memory system
 
----
+</details>
 
-### 2. **[Hermes Agent](https://github.com/LVT382009/hermes-agent)** - Adaptive AI Agent
+<details>
+<summary><strong>2. 🧠 <a href="https://github.com/LVT382009/hermes-agent">Hermes Agent</a> - Adaptive AI Agent</strong></summary>
+
+<br>
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-> An intelligent agent that grows with you, powered by advanced AI capabilities. Designed for continuous learning and adaptation.
+An intelligent agent that grows with you, powered by advanced AI capabilities. **Designed for continuous learning and adaptation.**
 
 **Key Features:**
-- 📈 Continuous learning and adaptation
-- 🎯 Intelligent task execution
-- 🔧 Extensible architecture
+- ✅ Continuous learning and adaptation
+- ✅ Intelligent task execution
+- ✅ Extensible architecture
 
----
+</details>
 
-### 3. **[Free Claude Code](https://github.com/LVT382009/free-claude-code)** - Multi-Platform IDE Integration
+<details>
+<summary><strong>3. 💻 <a href="https://github.com/LVT382009/free-claude-code">Free Claude Code</a> - Multi-Platform IDE Integration</strong></summary>
+
+<br>
+
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-> Access Claude's coding capabilities for free across terminal, VSCode, and Discord with voice support powered by OpenClaw.
+Access Claude's coding capabilities for free across terminal, VSCode, and Discord with voice support powered by OpenClaw.
 
 **Platforms:**
-- 💻 Terminal/CLI
-- 🎨 VSCode Extension
-- 💬 Discord Integration
-- 🎤 Voice Support
+- ✅ Terminal/CLI
+- ✅ VSCode Extension
+- ✅ Discord Integration
+- ✅ Voice Support
 
----
+</details>
 
-### 4. **[Cline](https://github.com/LVT382009/cline)** - Autonomous IDE Agent
-> Autonomous coding agent right in your IDE. Create/edit files, execute commands, use the browser—all with your permission every step of the way.
+<details>
+<summary><strong>4. ⚡ <a href="https://github.com/LVT382009/cline">Cline</a> - Autonomous IDE Agent</strong></summary>
+
+<br>
+
+Autonomous coding agent right in your IDE. **Create/edit files, execute commands, use the browser—all with your permission every step of the way.**
 
 **Capabilities:**
-- 📝 File creation & editing
-- ⚙️ Command execution
-- 🌐 Browser automation
+- ✅ File creation & editing
+- ✅ Command execution
+- ✅ Browser automation
 - ✅ Permission-based workflow
 
----
+</details>
 
-### 5. **[Hermes Rate Limiter Plugin](https://github.com/LVT382009/hermes-rate-limiter-plugin)** - Smart Rate Limiting
+<details>
+<summary><strong>5. 🛡️ <a href="https://github.com/LVT382009/hermes-rate-limiter-plugin">Hermes Rate Limiter Plugin</a> - Smart Rate Limiting</strong></summary>
+
+<br>
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-> Cross-session rate limit guard for Hermes Agent that prevents retry amplification when rate limits are hit.
+Cross-session rate limit guard for Hermes Agent that **prevents retry amplification when rate limits are hit.**
 
 **Features:**
-- 🛡️ Cross-session protection
-- 📊 Intelligent rate limiting
-- ⚡ Retry optimization
+- ✅ Cross-session protection
+- ✅ Intelligent rate limiting
+- ✅ Retry optimization
 
----
+</details>
 
-### 6. **[Noxem](https://github.com/LVT382009/noxem)** - Web Development Innovation
+<details>
+<summary><strong>6. 🎯 <a href="https://github.com/LVT382009/noxem">Noxem</a> - Web Development Innovation</strong></summary>
+
+<br>
+
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![14 Stars](https://img.shields.io/github/stars/LVT382009/noxem?style=flat-square&color=yellow&label=⭐)
 
-> Innovative JavaScript project exploring new possibilities in web development and automation.
+Innovative JavaScript project **exploring new possibilities in web development and automation.**
+
+</details>
 
 ---
 
