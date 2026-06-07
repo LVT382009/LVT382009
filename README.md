@@ -96,15 +96,6 @@ I'm passionate about creating **AI-powered autonomous agents** and intelligent d
 
 ---
 
-## 📊 GitHub Analytics
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=LVT382009&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LVT382009&layout=compact&theme=dark&hide_border=true&bg_color=0d1117" alt="Top Languages" />
-</p>
-
----
-
 ## 🎯 Current Focus
 
 - 🔭 **Exploring:** Advanced AI agent architectures and multi-provider integration
@@ -122,9 +113,6 @@ I'm passionate about creating **AI-powered autonomous agents** and intelligent d
   </a>
   <a href="https://github.com/LVT382009">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://linkedin.com/in/yourprofile">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
 
