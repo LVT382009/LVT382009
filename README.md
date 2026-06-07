@@ -20,7 +20,7 @@ I'm passionate about creating **AI-powered autonomous agents** and intelligent d
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/Claude%20API-000000?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude API" />
   <img src="https://img.shields.io/badge/AI%20Agents-FF6B6B?style=for-the-badge" alt="AI Agents" />
-  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
 </p>
 
 ---
@@ -28,95 +28,74 @@ I'm passionate about creating **AI-powered autonomous agents** and intelligent d
 ## 🚀 Featured Projects
 
 <details>
-<summary><strong>1. 🤖 <a href="https://github.com/LVT382009/mizumi">Mizumi</a> - AI Code Review Agent</strong></summary>
+<summary><strong>1. 🤖 <a href="https://github.com/LVT382009/mizumi">Mizumi</a> - Self-Learning PR Review Agent</strong></summary>
 
 <br>
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-Self-learning PR review agent with multi-provider support, prompt injection defense, and memory capabilities. **The first AI code review tool with an explicit defense framework.**
+GitHub Action that reviews pull requests using AI, learns from past reviews, and posts actionable findings — with deterministic rules that never hallucinate.
 
 **Key Features:**
-- ✅ Self-learning capabilities
-- 🔐 Prompt injection defense framework
-- 🔄 Multi-provider compatibility
-- 💾 Persistent memory system
+- ✅ BYOK from day 1 (Anthropic, OpenAI, Google, NVIDIA NIM, OpenRouter, or any OpenAI-compatible endpoint)
+- ✅ Self-learning via repository memory
+- ✅ Deterministic rules (catches hardcoded secrets, missing auth, SQL injection WITHOUT LLM calls)
+- ✅ Two-pass review (LLM review + self-critique on cheaper model)
+- ✅ Prompt injection defense framework (first AI code review tool with explicit defense architecture)
+- ✅ Confidence calibration & auto-fix on 👍 reaction
+- ✅ CI-validated fix loop (apply → poll → revert on failure)
+- ✅ AST cross-file contract analysis
 
 </details>
 
 <details>
-<summary><strong>2. 🧠 <a href="https://github.com/LVT382009/hermes-agent">Hermes Agent</a> - Adaptive AI Agent</strong></summary>
+<summary><strong>2. 🧠 <a href="https://github.com/LVT382009/hermes-rate-limiter-plugin">Hermes Rate Limiter Plugin</a> - Smart Rate Limiting</strong></summary>
 
 <br>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-An intelligent agent that grows with you, powered by advanced AI capabilities. **Designed for continuous learning and adaptation.**
+Cross-session rate limit guard for Hermes Agent side clients that **prevents retry amplification when rate limits are hit.**
+
+**Problem Solved:**
+Each 429 error triggers up to 9 API calls (3 SDK retries × 3 Hermes retries). This plugin records rate limit state on first 429 and checks it before subsequent attempts across all sessions.
 
 **Key Features:**
-- ✅ Continuous learning and adaptation
-- ✅ Intelligent task execution
-- ✅ Extensible architecture
+- ✅ Cross-session tracking with shared state file
+- ✅ Retry amplification prevention
+- ✅ Runtime controls via slash commands (`/ratelimit status`, `/ratelimit clear`, etc.)
+- ✅ Thread-safe atomic writes
+- ✅ Reset time parsing (x-ratelimit headers, retry-after, default cooldown)
 
 </details>
 
 <details>
-<summary><strong>3. 💻 <a href="https://github.com/LVT382009/free-claude-code">Free Claude Code</a> - Multi-Platform IDE Integration</strong></summary>
+<summary><strong>3. 💾 <a href="https://github.com/LVT382009/noxem">Noxem</a> - AI Memory System for Hermes</strong></summary>
 
 <br>
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-Access Claude's coding capabilities for free across terminal, VSCode, and Discord with voice support powered by OpenClaw.
-
-**Platforms:**
-- ✅ Terminal/CLI
-- ✅ VSCode Extension
-- ✅ Discord Integration
-- ✅ Voice Support
-
-</details>
-
-<details>
-<summary><strong>4. ⚡ <a href="https://github.com/LVT382009/cline">Cline</a> - Autonomous IDE Agent</strong></summary>
-
-<br>
-
-Autonomous coding agent right in your IDE. **Create/edit files, execute commands, use the browser—all with your permission every step of the way.**
-
-**Capabilities:**
-- ✅ File creation & editing
-- ✅ Command execution
-- ✅ Browser automation
-- ✅ Permission-based workflow
-
-</details>
-
-<details>
-<summary><strong>5. 🛡️ <a href="https://github.com/LVT382009/hermes-rate-limiter-plugin">Hermes Rate Limiter Plugin</a> - Smart Rate Limiting</strong></summary>
-
-<br>
-
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
-Cross-session rate limit guard for Hermes Agent that **prevents retry amplification when rate limits are hit.**
-
-**Features:**
-- ✅ Cross-session protection
-- ✅ Intelligent rate limiting
-- ✅ Retry optimization
-
-</details>
-
-<details>
-<summary><strong>6. 🎯 <a href="https://github.com/LVT382009/noxem">Noxem</a> - Web Development Innovation</strong></summary>
-
-<br>
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![14 Stars](https://img.shields.io/github/stars/LVT382009/noxem?style=flat-square&color=yellow&label=⭐)
 
-Innovative JavaScript project **exploring new possibilities in web development and automation.**
+Two-brain AI memory system with **hybrid semantic search (vector KNN + FTS5)** and optional advisor brain via QwenProxy or local LLM.
+
+**Brain 1 — Semantic Engine:**
+- Hybrid search with Reciprocal Rank Fusion
+- Auto-categorization (12+ tags)
+- Smart deduplication (cosine >0.92)
+- Conflict resolution & contextual enrichment
+- Spaced repetition & importance scoring
+- Provenance graph tracking
+
+**Brain 2 — Reasoning Engine (optional):**
+- Cloud (QwenProxy) or local (Ollama, LM Studio, llama.cpp)
+- Drift detection & context recovery
+- Background web research via DuckDuckGo
+- Session extraction & consolidation
+- OpenAI-compatible API on port 8000
 
 </details>
 
@@ -124,10 +103,10 @@ Innovative JavaScript project **exploring new possibilities in web development a
 
 ## 🎯 Current Focus
 
-- 🔭 **Exploring:** Advanced AI agent architectures and multi-provider integration
-- 🌱 **Learning:** Defense mechanisms against prompt injection and security best practices
-- 💡 **Building:** Next-generation autonomous development tools
-- 🤝 **Contributing:** To open-source AI and developer tool ecosystems
+- 🔭 **Exploring:** Advanced AI agent architectures and intelligent memory systems
+- 🌱 **Learning:** Defense mechanisms, prompt injection mitigation, and security best practices
+- 💡 **Building:** Next-generation autonomous development tools and AI agents
+- 🤝 **Contributing:** To open-source AI ecosystems
 
 ---
 
@@ -147,9 +126,9 @@ Innovative JavaScript project **exploring new possibilities in web development a
 ## 💬 Let's Collaborate!
 
 I'm always excited to collaborate on:
-- 🤖 AI agent development
+- 🤖 AI agent development and memory systems
 - 🛠️ Developer tools and productivity solutions
-- 🔐 AI safety and security research
+- 🔐 AI safety, security, and defense mechanisms
 - 🌟 Open-source projects
 
 **Feel free to:**
