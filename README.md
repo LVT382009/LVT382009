@@ -1,67 +1,153 @@
-# 👋 Welcome to My Profile
+# 👋 Hi, I'm Lê Văn Tâm
 
-Hello! I'm a passionate developer specializing in **AI agents, autonomous coding tools, and intelligent automation**. This is my corner of GitHub where I showcase my work on cutting-edge projects that leverage AI to enhance developer productivity.
-
-## 🚀 What I Do
-
-I build sophisticated AI-powered tools and autonomous agents designed to transform how developers write, review, and manage code. My focus is on creating intelligent solutions that integrate seamlessly with modern development workflows.
-
-## 💻 Skills & Technologies
-
-- **Languages:** Python, TypeScript, JavaScript
-- **Frameworks & Libraries:** Claude API, AI Agent Development
-- **Specialties:** Autonomous Agents, AI Code Review, Developer Tools, Rate Limiting & Optimization
-- **Tools & Platforms:** IDE Integration, VSCode Extensions, Terminal Tools
-
-## 📚 Featured Projects
-
-### [Mizumi](https://github.com/LVT382009/mizumi)
-Self-learning PR review agent with BYOK support, multi-provider compatibility, and prompt injection defense. The first AI code review tool with an explicit defense framework.
-
-### [Hermes Agent](https://github.com/LVT382009/hermes-agent)
-An intelligent agent that grows with you, powered by advanced AI capabilities. Designed for continuous learning and adaptation.
-
-### [Free Claude Code](https://github.com/LVT382009/free-claude-code)
-Use claude-code for free in the terminal, VSCode extension, or Discord-like interface with voice support powered by OpenClaw.
-
-### [Hermes Rate Limiter Plugin](https://github.com/LVT382009/hermes-rate-limiter-plugin)
-Cross-session rate limit guard for Hermes Agent side clients that prevents retry amplification when rate limits are hit.
-
-### [Cline](https://github.com/LVT382009/cline)
-Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.
-
-### [Noxem](https://github.com/LVT382009/noxem)
-An innovative JavaScript project with 14 stars - exploring new possibilities in web development and automation.
-
-## 🎯 Current Focus
-
-- 🔭 Developing advanced AI agent architectures for code generation and review
-- 🌱 Exploring multi-provider AI integration and defense mechanisms
-- 💡 Interested in autonomous systems, developer tools, and AI safety
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=LVT382009&show_icons=true&theme=dark)
-
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=LVT382009&layout=compact&theme=dark)
-
-## 🤝 Let's Connect
-
-I'm always open to collaborating on AI-driven projects and connecting with fellow developers!
-
-- 📧 Email: [levantam.98.2324@gmail.com]
-- 🔗 LinkedIn: [Your LinkedIn URL]
-- 🐦 Twitter: [@yourhandle]
-- 💼 Portfolio: [Your portfolio website]
-
-## ⭐ Support & Contributions
-
-If you find my projects useful, feel free to:
-- ⭐ Star repositories you find helpful
-- 🐛 Report issues and suggest improvements
-- 🤝 Contribute with pull requests
-- 💬 Reach out with ideas and feedback
+<p align="center">
+  <strong>AI Agent Developer | Autonomous Systems | Developer Tools</strong>
+  <br>
+  Building intelligent solutions that enhance developer productivity
+</p>
 
 ---
 
-**Thank you for visiting my profile! Let's build the future of AI-powered development together! 🎉**
+## 🎯 About Me
+
+I'm passionate about creating **AI-powered autonomous agents** and intelligent developer tools that transform how teams write, review, and manage code. My work focuses on bridging the gap between cutting-edge AI technology and practical developer needs.
+
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Claude%20API-000000?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude API" />
+  <img src="https://img.shields.io/badge/AI%20Agents-FF6B6B?style=for-the-badge" alt="AI Agents" />
+  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode" />
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+### 1. **[Mizumi](https://github.com/LVT382009/mizumi)** - AI Code Review Agent
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+> Self-learning PR review agent with multi-provider support, prompt injection defense, and memory capabilities. The first AI code review tool with an explicit defense framework.
+
+**Key Features:**
+- 🤖 Self-learning capabilities
+- 🔐 Prompt injection defense framework
+- 🔄 Multi-provider compatibility
+- 💾 Persistent memory system
+
+---
+
+### 2. **[Hermes Agent](https://github.com/LVT382009/hermes-agent)** - Adaptive AI Agent
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+> An intelligent agent that grows with you, powered by advanced AI capabilities. Designed for continuous learning and adaptation.
+
+**Key Features:**
+- 📈 Continuous learning and adaptation
+- 🎯 Intelligent task execution
+- 🔧 Extensible architecture
+
+---
+
+### 3. **[Free Claude Code](https://github.com/LVT382009/free-claude-code)** - Multi-Platform IDE Integration
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+> Access Claude's coding capabilities for free across terminal, VSCode, and Discord with voice support powered by OpenClaw.
+
+**Platforms:**
+- 💻 Terminal/CLI
+- 🎨 VSCode Extension
+- 💬 Discord Integration
+- 🎤 Voice Support
+
+---
+
+### 4. **[Cline](https://github.com/LVT382009/cline)** - Autonomous IDE Agent
+> Autonomous coding agent right in your IDE. Create/edit files, execute commands, use the browser—all with your permission every step of the way.
+
+**Capabilities:**
+- 📝 File creation & editing
+- ⚙️ Command execution
+- 🌐 Browser automation
+- ✅ Permission-based workflow
+
+---
+
+### 5. **[Hermes Rate Limiter Plugin](https://github.com/LVT382009/hermes-rate-limiter-plugin)** - Smart Rate Limiting
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+> Cross-session rate limit guard for Hermes Agent that prevents retry amplification when rate limits are hit.
+
+**Features:**
+- 🛡️ Cross-session protection
+- 📊 Intelligent rate limiting
+- ⚡ Retry optimization
+
+---
+
+### 6. **[Noxem](https://github.com/LVT382009/noxem)** - Web Development Innovation
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![14 Stars](https://img.shields.io/github/stars/LVT382009/noxem?style=flat-square&color=yellow&label=⭐)
+
+> Innovative JavaScript project exploring new possibilities in web development and automation.
+
+---
+
+## 📊 GitHub Analytics
+
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=LVT382009&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117" alt="GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LVT382009&layout=compact&theme=dark&hide_border=true&bg_color=0d1117" alt="Top Languages" />
+</p>
+
+---
+
+## 🎯 Current Focus
+
+- 🔭 **Exploring:** Advanced AI agent architectures and multi-provider integration
+- 🌱 **Learning:** Defense mechanisms against prompt injection and security best practices
+- 💡 **Building:** Next-generation autonomous development tools
+- 🤝 **Contributing:** To open-source AI and developer tool ecosystems
+
+---
+
+## 🤝 Connect With Me
+
+<p align="center">
+  <a href="mailto:levantam.98.2324@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/LVT382009">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://linkedin.com/in/yourprofile">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
+
+---
+
+## 💬 Let's Collaborate!
+
+I'm always excited to collaborate on:
+- 🤖 AI agent development
+- 🛠️ Developer tools and productivity solutions
+- 🔐 AI safety and security research
+- 🌟 Open-source projects
+
+**Feel free to:**
+- ⭐ Star projects you find interesting
+- 🐛 Report issues and suggest improvements
+- 🤝 Submit pull requests
+- 💌 Reach out with ideas and feedback
+
+---
+
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=LVT382009" alt="Visitor Badge" />
+  <br><br>
+  <strong>Let's build the future of AI-powered development together! 🚀</strong>
+</p>
